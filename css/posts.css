@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+  padding: 2%;
+  background: #3f0027a4;
+}
+/* nav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgb(54, 0, 54);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 20%;
+  text-align:center;
+}
+span{
+  color: white;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #fa6dff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+  /* fetch users */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: none;
+}
+
+.card-container {
+    margin: 30px;
+    background:rgb(71, 0, 71);
+    border-radius: 5px;
+    box-shadow: 0px 20px 30px -10px rgb(29, 0, 27);
+    color: #c7b3cd;
+    text-align: center;
+    width: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.round {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    padding: 7px;
+    
+
+}
+.name-container {
+    margin: 10px 0;
+    font-size: 24px;
+}
+button {
+  color: #3e0041;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+button a{
+  text-decoration: none;
+}
